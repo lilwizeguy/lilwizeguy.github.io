@@ -97,6 +97,13 @@ li
     color:white;
 }
 
+.bufferWrapper
+{
+    background-color: transparent;
+    height:40vh;
+}
+
+
 .centerWrapper
 {
     
