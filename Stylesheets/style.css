@@ -8,6 +8,36 @@ body
     background-repeat: no-repeat;
 }
 
+body, html, main {
+	/* important */
+	height: 100%;
+}
+
+.cd-fixed-bg {
+	min-height: 40%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("SCU.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("City.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("Tiger.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/cd-background-4.jpg");
+}
+ 
+.cd-scrolling-bg {
+	min-height: 100%;
+}
+
 ul
 {
     list-style-type: none;
