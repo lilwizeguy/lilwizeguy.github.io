@@ -1,8 +1,11 @@
-var userHasScrolled = false;
-window.onscroll = function(e) 
-{
-    userHasScrolled = true;
-    if (window.pageYOffset > 1000) {
-    //window.getElementsByClassName('body').style.backgroundImage="url(profile.jpg)"; // specify the image path here
+/*global $, target*/
+
+$('a[href^="#"]').on('click', function (event) {
+    var target = $($(this).attr('href'));
+    if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
     }
-}
+});

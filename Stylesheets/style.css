@@ -81,7 +81,9 @@ li
     padding-left: auto;
     padding-top: auto;
     text-align: center;
-}
+    
+    
+ye}
 
 #skillsPicture
 {
@@ -123,7 +125,14 @@ li
 #thirdPage
 {
     background-color: #2279ed;
-    background-color:transparent;
+    background-color:black;
+    color:white;
+}
+
+#fourthPage
+{
+    background-color: #2279ed;
+    background-color:black;
     color:white;
 }
 
