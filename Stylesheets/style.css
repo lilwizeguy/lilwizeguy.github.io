@@ -2,7 +2,6 @@
 body
 {
     margin:0;
-    background-image:url("SCU.jpg");
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -22,6 +21,7 @@ body, html, main {
 }
  
 .cd-fixed-bg.cd-bg-1 {
+  min-height: 100%;
   background-image: url("SCU.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
@@ -112,8 +112,10 @@ ye}
 
 #firstPage
 {
-    //background-color:#20a899;
-    background-color:transparent;
+    margin:0;
+    background-image: url(SCU.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     color: white;
 }
 
