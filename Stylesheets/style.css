@@ -57,6 +57,7 @@ li
 .navbar
 {
     position:fixed;
+    z-index: 1;
     background-color:#ffffff;
     opacity: 0.8;
     height:10%;
