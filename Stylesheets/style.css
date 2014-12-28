@@ -22,7 +22,7 @@ body, html, main {
  
 .cd-fixed-bg.cd-bg-1 {
   min-height: 100%;
-  background-image: url("Saturn.jpg");
+  background-image: url("Title.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("PurpleStars.jpg");
@@ -121,7 +121,7 @@ li
 #firstPage
 {
     margin:0;
-    background-image: url(SCU.jpg);
+    background-image: url(Mountain.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
