@@ -22,13 +22,13 @@ body, html, main {
  
 .cd-fixed-bg.cd-bg-1 {
   min-height: 100%;
-  background-image: url("Title.jpg");
+  background-image: url("SCU.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("PurpleStars.jpg");
+  background-image: url("City.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("Planet.jpg");
+  background-image: url("Tiger.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/cd-background-4.jpg");
@@ -121,7 +121,7 @@ li
 #firstPage
 {
     margin:0;
-    background-image: url(Mountain.jpg);
+    background-image: url(SCU.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
