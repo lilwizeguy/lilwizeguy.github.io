@@ -71,16 +71,16 @@ li
     opacity: 1;
     display: inline-block;
 	width: 10%;
-	height: 10vh;
+	height: 10%;
 	background-color:#ffffff;
 	border-color: #000000;
-	<!--color: #20a899;	-->
-    color:#ffffff;
+	color: #20a899;
+    text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     	<!--font-family: Helvetica, Arial, Sans-Serif;-->
     font-size: 100px;
     padding-left: auto;
-    padding-top: auto;
+    padding-top: 3vh;
     text-align: center;
     vertical-align: middle;
     
