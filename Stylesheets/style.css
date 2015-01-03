@@ -291,6 +291,7 @@ li
     
     font-family: 'Roboto', sans-serif;   
     font-weight: 100;
+    text-decoration: none;
     
     display: block;
     
@@ -307,7 +308,8 @@ li
     border-width: 1px;
     border-color: #ffffff;
     color: #ffffff;
-    
+    -webkit-filter: invert(100%);  
+
 
 }
 
