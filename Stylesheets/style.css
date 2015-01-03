@@ -303,22 +303,21 @@ li
     padding-right: auto;
 
     
-    background-color: #000000;
+    background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
-    border-color: #ffffff;
-    color: #ffffff;
-    -webkit-filter: invert(100%);  
+    border-color: #000000;
+    color: #000000;
 
 
 }
 
 .githubButton:hover
 {
-    background-color: #ffffff;
+    background-color: #000000;
 
-    border-color: #000000;
-    color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
 
