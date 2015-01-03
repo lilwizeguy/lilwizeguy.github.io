@@ -6,7 +6,7 @@
 	<head>
 
 		<link rel="stylesheet" type="text/css" href="Stylesheets/style.css">
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
@@ -29,55 +29,78 @@
                 <a class = "button" href = "#thirdPage">Skills</a>
             </li>
             <li>
-                <a class = "button" href="#fourthPage">Contact</a></li>
+                <a class = "button" href="#fourthPage">Projects</a></li>
+            <li>
+                <a class = "button" href="#fifthPage">Contact</a></li>
         </ul>
                 
         <div class = "cd-fixed-bg cd-bg-1" id = "firstPage">
-            <div class = "headerText">
+            <div class = "headerText" id = "title">
                 Immanuel Amirtharaj
             </div>
-        </div>
-        
-        <div class = "backgroundWrapper" id = "secondPage">    
             
-            <div class = "headerText">
-                About Me
+            <div class = "supportingText">
+                Designer | Developer
             </div>
-        
-            
-            <span class="centerWrapper">
-                Hello, my name is Immanuel Amirtharaj, but I'm usually known as Manny.  I am a sophomore at Santa Clara University studying Computer Science and Engineering.  Currently I have taken classes like Data Structures and Embedded Systems and have an extensive knowledge of C, C++, and Assembly.  In my spare time, I like to read, play cricket, and learn new things like web and mobile development.  Resume and contact information attatched as well.
-            </span>
         </div>
         
-        <div class = "cd-fixed-bg cd-bg-2">
-        </div>
-        
-        <div class = "cd-scrolling-bg cd-color-2">
-            <div class = "backgroundWrapper" id = "thirdPage">
+        <div class = "cd-scrolling-bg cd-color-2" id = "secondPage">
+            <div class = "backgroundWrapper" id = "white">    
+
                 <div class = "headerText">
+                    About Me
+                </div>
+
+                <span class="centerWrapperBlack">
+                    Immanuel Amirtharaj (known to his friends as Manny) was born in Santa Clara and moved to Cupertino when he was 8.  There, the tech culture really impressed him which is one of the main reasons why he decided to study Computer Science and Engineering at Santa Clara University.  Apart from coding and learning new things, some of Manny's interests include eating, playing Hearthstone, and looking up song lyrics on rapgenius.com
+                </span>
+            </div>
+        </div>
+        
+       <!-- <div class = "cd-fixed-bg cd-bg-2">
+        </div>-->
+        
+        <div class = "cd-scrolling-bg cd-color-2" id = "thirdPage">
+            <div class = "backgroundWrapper" id = "alternatePage">
+                <div class = "headerText" id = headerTextWhite>
                     Technical Skills
                 </div>
-                <div class = "centerWrapper">
-                    I am skillful in many different things.  I know C and C++, being able to implement complex things like Data Structures in those classes.  I also know how to use Sketch to some extent.  I am also familiar with version source control things like Github.     
+                <div class = "centerWrapperWhite">
+                    I have been learning to code for just over two years.  So far, I have extensive knowledge in C, C++, and Java.  On top of that, I have been self-teaching myself Objective C for i-OS development for the past 6 months.  Some of my relative coursework regarding my major includes Data Structures, Advanced Data Structures, and Embedded Systems.
                 </div>
             </div>
         </div>
         
-        <div class = "cd-fixed-bg cd-bg-3">
-        </div>
-            
-        <div class = "cd-scrolling-bg cd-color-2">
-            <div class = "backgroundWrapper" id = "fourthPage">
+        
+        <div class = "cd-scrolling-bg cd-color-2" id = "fourthPage">
+            <div class = "backgroundWrapper">
                 <div class = "headerText">
+                    Projects
+                </div>
+                <div class = "githubButton">
+                    View on Github
+                </div> 
+            </div>
+        </div>
+        
+        <div class = "cd-scrolling-bg cd-color-2" id = "fifthPage">
+            <div class = "backgroundWrapper" id = "alternatePage">
+                <div class = "headerText" id = "headerTextWhite">
                     Contact Information
                 </div>
 
-                <div class = "centerWrapper">
-                    I am currently looking for developer work, and I am available for internships and other work over the summer. If you have any questions or offers, please don't hesitate to contact me! Please use any medium to contact me but email works best. Otherwise, phone or facebook is the best way to reach me!
-                </div>        
+                <div class = "centerWrapperWhite">
+                        I am currently looking for developer work, and I am available for internships and other work over the summer. If you have any questions or offers, please don't hesitate to contact me! Please use any medium to contact me but email works best. Otherwise, phone or facebook is the best way to reach me!
+                </div>   
             </div>
         </div>
+        
+            
+        
+        
+        
+        
+        
         <script type="text/javascript" src="Scripts/scrollingScript.js"></script>
 	</body>  
 </html>

@@ -13,7 +13,7 @@ body, html, main {
 }
 
 .cd-fixed-bg {
-	min-height: 60%;
+	min-height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -36,6 +36,28 @@ body, html, main {
  
 .cd-scrolling-bg {
 	min-height: 100%;
+}
+
+
+#title
+{
+    color:white;
+    padding-top: 15%;
+    padding-bottom: 1%;
+}
+
+
+
+
+.supportingText
+{
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 200;
+    font-size: 36px;
+    color: white;
+    
 }
 
 ul
@@ -83,6 +105,9 @@ li
     padding-top: 3vh;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 300;
+
     
     
 }
@@ -93,9 +118,9 @@ li
 }
 
 
-.button:selected
+.button:active
 {
-    background-color: #000000;
+    color: #ffffff;
 }
 
 #skillsPicture
@@ -108,44 +133,62 @@ li
 .backgroundWrapper
 {
     
-    background-color: #20a899;
+    <!--background-color: #20a899;-->
     position: sticky;
     left: auto;
     width = 100%;
     overflow:hidden;
-    height: 100vh;      <!--vheight (viewport percentage) gets the height of the screen-->
+    min-height: 100vh;      <!--vheight (viewport percentage) gets the height of the screen-->
     
+    
+     background-color: #000000; 
+    <!--background-color:black;-->
+    color: black;
     
 }
+
+
+#blackTheme
+{
+    color:white;
+    background-color: black;
+}
+
+#whiteTheme
+{
+    color: black;
+    background-color: white;
+}
+
 
 #firstPage
 {
     margin:0;
     background-image: url(SCU.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
     color: white;
 }
 
 #secondPage
 {
-    background-color: #2279ed;    
-    <!--background-color:black;-->
-    color: white;
+    
 }
 
 #thirdPage
 {
-    background-color: #2279ed;
-    <!--background-color:black;-->
-    color:white;
+   
 }
 
 #fourthPage
 {
-    background-color: #2279ed;
-    <!--background-color:black;-->
-    color:white;
+    
+}
+
+#alternatePage
+{
+    color: white;
+    background-color: #000000;
 }
 
 .bufferWrapper
@@ -154,8 +197,11 @@ li
     height:40vh;
 }
 
-
-.centerWrapper
+#headerTextWhite
+{
+    color: #ffffff;
+}
+.centerWrapperBlack
 {
     
      margin-left: auto;
@@ -167,21 +213,47 @@ li
     text-align: center;
     padding-left: auto;
     padding-right: auto;
+    margin-bottom: 5%;
     height: 40%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 100;
+    font-size: 25px;
+    line-height:50px;
+    color: black;
+        
+}
+
+.centerWrapperWhite
+{
+    
+     margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height:auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 5%;
+    height: 40%;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 100;
     font-size: 25px;
     line-height:50px;
     color: white;
         
 }
 
+
 .headerText
 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 300;
     text-align: center;
     padding-left: auto;
     padding-right: auto;
-    color:white;
+    color:black;
     font-size: 75px;
     height:auto;
     padding-top: 7%;
@@ -196,8 +268,8 @@ li
     height:auto;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-   // background-color:#2279ed;
-   // border-radius: 30px;
+   <!-- background-color:#2279ed;
+    border-radius: 30px; -->
     margin-bottom: 10%;
 
     font-size: 20px;
@@ -207,6 +279,43 @@ li
     padding-top:3%;
 	color: white;	
     float: right;
+}
+
+
+.githubButton
+{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    
+    display: block;
+    
+    text-align: center;
+    
+    padding-bottom: auto;
+    padding-top: 10px;
+    padding-left: auto;
+    padding-right: auto;
+
+    
+    background-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    color: #ffffff;
+    
+
+}
+
+.githubButton:hover
+{
+    background-color: #ffffff;
+
+    border-color: #000000;
+    color: #000000;
 }
 
 
