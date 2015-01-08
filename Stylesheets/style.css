@@ -229,15 +229,15 @@ li
     
      margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 60vw;
     height:auto;
     position: relative;
     display: block;
     text-align: center;
     padding-left: auto;
     padding-right: auto;
-    margin-bottom: 5%;
-    height: 40%;
+    margin-bottom: 6vh;
+    height: 40vh;
     font-family: 'Roboto', sans-serif;    
     font-weight: 100;
     font-size: 2vw;
@@ -257,7 +257,7 @@ li
     padding-left: auto;
     padding-right: auto;
     color:black;
-    font-size: 75px;
+    font-size: 5vw;
     height:auto;
     padding-top: 7%;
     padding-bottom:6%;
