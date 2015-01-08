@@ -308,8 +308,6 @@ li
     border-width: 1px;
     border-color: #000000;
     color: #000000;
-
-
 }
 
 .githubButton:hover
@@ -319,6 +317,7 @@ li
     border-color: #ffffff;
     color: #ffffff;
 }
+
 
 
 #aboutPhoto
@@ -371,6 +370,5 @@ li
 .individualButton:hover
 {
 -webkit-filter: invert(50%);  
-
 }
 
