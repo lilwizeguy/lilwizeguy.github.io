@@ -240,8 +240,10 @@ li
     height: 40%;
     font-family: 'Roboto', sans-serif;    
     font-weight: 100;
-    font-size: 25px;
-    line-height:50px;
+    font-size: 4vh;
+    line-height:8vh;
+    
+    <!-- 25px and 50px-->
     color: white;
         
 }
