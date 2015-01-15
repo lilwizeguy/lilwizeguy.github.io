@@ -405,7 +405,22 @@
 
     .button:active
     {
-        color: #ffffff;
+        color: #000000;
+    }
+    
+    
+    .headerText
+    {
+        font-family: 'Roboto', sans-serif;   
+        font-weight: 300;
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+        color:black;
+        font-size: 75px;
+        height:auto;
+        padding-top: 7%;
+        padding-bottom:6%;
     }
 }
 
