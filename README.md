@@ -1,4 +1,5 @@
 Manny1995.github.io
 ===================
 
-Personal Website
+My personal website, view at https://iamirtharaj.me
+
