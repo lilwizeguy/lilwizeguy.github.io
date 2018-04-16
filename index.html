@@ -3,7 +3,8 @@
     <head>
 
 		<title>Immanuel Amirtharaj</title>
-        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
 	    <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -15,83 +16,165 @@
 
 	</script>
         <style>
+
+            h1 {
+                font-weight: 500;
+            }
+
+            h2 {
+                font-weight: 500;
+            }
+
+            b {
+                font-weight: 500;
+            }
             
             body {
                 font-family: 'Helvetica', sans-serif;  
                 font-size: 15pt;
+                line-height: 1.5;
                 color: #383838;
+                font-weight: 300;
             }
             
-            a {
-                color: #B8B8B8;
+            a {             
+                color: #B8B8B8;  
                 text-decoration: none;
+                font-weight: 400;
             }
-            
-            .wrapper {
 
-                display: -webkit-flex;
+            a:hover {
+                color: #000; 
+            }
+
+/*                display: -webkit-flex;
                 display: flex;
                 -webkit-flex-direction = column;
                 flex-direction: column;
                 justify-content: center;
                 margin: auto;
-                max-width: 40%;
+                max-width: 50%;
                 position: center;
+                padding-top: 30px;
+                padding-bottom: 30px;*/
+            .wrapper {
+/*
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-direction = column;
+                flex-direction: column;
+                justify-content: center;*/
+                margin: auto;
+                position: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
                 
             }
-        
+
+
+        @media screen and (min-width: 1025px) {
+
+            .wrapper {
+
+                max-width: 50%;
+
+            }
+        }
+
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            .wrapper {
+
+                max-width: 85%;
+
+            }
+        }
+            
+        @media screen and (min-width: 376px) and (max-width: 768px) {
+            .wrapper {
+                max-width: 85%;     
+            }
+
+            body {
+                font-family: 'Helvetica', sans-serif;  
+                font-size: 14px;
+                line-height: 1.5;
+                color: #383838;
+                font-weight: 300;
+            }
+
+        }
+
+   
+        @media screen and (max-width: 375px) {
+             .wrapper {
+                    max-width: 95%;
+
+            }
+
+            body {
+                font-family: 'Helvetica', sans-serif;  
+                font-size: 12px;
+                line-height: 1.5;
+                color: #383838;
+                font-weight: 300;
+            }
+        }
+
+
         </style>
     
     </head>
     
     <body>
         <div class="wrapper">
-            <div class="sectionWrapper">
-                <h1>Immanuel Amirtharaj</h1>
+            <h1>Immanuel Amirtharaj</h1>
 
-        <!--        <a href="myblog/_site/index.html">This is my blog</a>-->
-            </div>
             <div class="sectionWrapper">
                 <h2>About Me</h2>
                 <div>
-                    I am currently a graduate student at Santa Clara University studying Computer Science and Engineering with an emphasis in Data Science.  I also do full stack web and mobile freelancing to the side.  Apart from those, my interests include music, fashion, and exercise.  If any of these things interests you, please feel free to contact me!
+                    I am currently a masters student at Santa Clara University studying Computer Science and Engineering with an emphasis in Data Science.  I also do full stack web and mobile developement to the side.  Apart from those, my interests include music, sneakers, running, and boba.  If any of these things interests you, please feel free to contact me!
                 </div>
             </div>
             
             <div class="sectionWrapper">
-                <h2>Skills</h2>
+                <h2>Technical Skills</h2>
                 <div>
                     My prior work experience has consisted of iOS development in both Objective C and Swift.  My research experience has consisted in C and C++ for network programming, along with Matlab for data analysis.  Through my personal side projects I have immersed myself in full stack web development using languages like Javascript, Python, and PHP, along with technologies such as Node JS, Angular JS, and Flask.  You can also check out some of my work <a href="http://madebymanny.com" >here </a>.
+                </div>
             </div>
 
             <div class="sectionWrapper">
-            	<h2> Where I've worked </h2>
-            	<h4>Currently, I work as a research assistant at Santa Clara University.
-                <h4>I have also worked as a</h3>
+            	<h2>Work Experience</h2>   
+            	Currently, I work as a research assistant at Santa Clara University. In addition, I work as a teaching assistant for a variety of classes ranging from Web Programming to Advanced Data Structures.  <b>This July I'll be joining an awesome company in the Bay Area.</b>  I have also worked as a:
                 <ul>
                     <li>Software Engineering Intern at FileMaker, an Apple Subsidiary</li>
                     <li>Software Engineering Intern at WeatherSphere</li>
                     <li>Media Services Assistant at Santa Clara University</li>
-                    <li>Exhibit Explainer at the Children's Discovery Museum</li>
+                    <li>Exhibit Explainer at the Children's Discovery Museum of San Jose</li>
                 </ul>
             </div>
 
             <div class="sectionWrapper">
-            	<h2>Projects I've worked on</h2>
-            		<a href="https://itunes.apple.com/us/app/hiit-sessions/id1034676941?mt=8">HIIT Sessions</a>
-            		<br/>
-            		<a href="https://itunes.apple.com/us/app/filemaker-go-16/id1097917885?mt=8">FileMaker Go 16</a>
-            		<br/>
-            		<a href="https://itunes.apple.com/us/app/fishing-spots-angling-map-trip-weather/id417922502?mt=8">Fishing Spots</a>
+            	<h2>Projects I've Worked On</h2>
+        		<a href="https://itunes.apple.com/us/app/hiit-sessions/id1034676941?mt=8">HIIT Sessions</a> - A High Interval Intensity timer written in Swift.
+        		<br/>
+        		<a href="https://itunes.apple.com/us/app/filemaker-go-16/id1097917885?mt=8">FileMaker Go 16</a> - Worked on the OAuth 2.0 feature for users to log in via 3rd party accounts.
+        		<br/>
+        		<a href="https://itunes.apple.com/us/app/fishing-spots-angling-map-trip-weather/id417922502?mt=8">Fishing Spots</a> - Implemented the new UI and added a couple of new features
+                <br/>
+<!--                 <a href="https://itunes.apple.com/us/app/filemaker-go-16/id1097917885?mt=8">Cloud Notes</a> - A web interface (MERN + S3) for others to view my class notes
+                <br/>
+                <a href="https://google.com">CalendarPi</a> - A C++ program which displays a calendar for the Raspberry Pi. -->
             </div>
 
             <div class="sectionWrapper">
                 <h2>Contact</h2>
-                <a href="Images/resume.pdf">Resume</a>
+                <a href="Images/resume.pdf">Resume</a> - For all you recruiters out there :)
                 <br/>
-                <a href="https://github.com/manny1995">Github</a>
+                <a href="https://github.com/manny1995">Github</a> - Includes both course-related and personal projects.
                 <br/>
-                <a href="https://linkedin.com/in/immanuel-amirtharaj-4661b053">LinkedIn</a>
+                <a href="https://linkedin.com/in/immanuel-amirtharaj-4661b053">LinkedIn</a> - Feel free to send me a request!
             </div>  
                 
             <div class="sectionWrapper">
